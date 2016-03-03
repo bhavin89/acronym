@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47A2CB40E29F56043268E600 /* libPods-Acronym.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0799CF4D23CB24FF6E28396 /* libPods-Acronym.a */; };
 		F18FC7031C88459800A4A352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC7021C88459800A4A352 /* main.m */; };
 		F18FC7061C88459800A4A352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC7051C88459800A4A352 /* AppDelegate.m */; };
-		F18FC7091C88459800A4A352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC7081C88459800A4A352 /* ViewController.m */; };
 		F18FC70C1C88459800A4A352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18FC70A1C88459800A4A352 /* Main.storyboard */; };
 		F18FC70F1C88459800A4A352 /* Acronym.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F18FC70D1C88459800A4A352 /* Acronym.xcdatamodeld */; };
 		F18FC7111C88459800A4A352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18FC7101C88459800A4A352 /* Assets.xcassets */; };
 		F18FC7141C88459800A4A352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18FC7121C88459800A4A352 /* LaunchScreen.storyboard */; };
 		F18FC71F1C88459800A4A352 /* AcronymTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC71E1C88459800A4A352 /* AcronymTests.m */; };
 		F18FC72A1C88459800A4A352 /* AcronymUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC7291C88459800A4A352 /* AcronymUITests.m */; };
+		F18FC7391C88582E00A4A352 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC7381C88582E00A4A352 /* MainView.m */; };
+		F18FC73C1C8862B900A4A352 /* ConParAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC73B1C8862B900A4A352 /* ConParAPI.m */; };
+		F18FC73F1C886EA400A4A352 /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18FC73E1C886EA400A4A352 /* customTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343F11DB77E07458A74A03AE /* Pods-Acronym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acronym.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acronym/Pods-Acronym.release.xcconfig"; sourceTree = "<group>"; };
+		A9D96D8FE972FFA5ADEE5797 /* Pods-Acronym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acronym.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acronym/Pods-Acronym.debug.xcconfig"; sourceTree = "<group>"; };
+		E0799CF4D23CB24FF6E28396 /* libPods-Acronym.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acronym.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FC6FE1C88459800A4A352 /* Acronym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acronym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FC7021C88459800A4A352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F18FC7041C88459800A4A352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F18FC7051C88459800A4A352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F18FC7071C88459800A4A352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F18FC7081C88459800A4A352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F18FC70B1C88459800A4A352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F18FC70E1C88459800A4A352 /* Acronym.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Acronym.xcdatamodel; sourceTree = "<group>"; };
 		F18FC7101C88459800A4A352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		F18FC7251C88459800A4A352 /* AcronymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronymUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FC7291C88459800A4A352 /* AcronymUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymUITests.m; sourceTree = "<group>"; };
 		F18FC72B1C88459800A4A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18FC7371C88582E00A4A352 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		F18FC7381C88582E00A4A352 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		F18FC73A1C8862B900A4A352 /* ConParAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConParAPI.h; sourceTree = "<group>"; };
+		F18FC73B1C8862B900A4A352 /* ConParAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConParAPI.m; sourceTree = "<group>"; };
+		F18FC73D1C886EA400A4A352 /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		F18FC73E1C886EA400A4A352 /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A2CB40E29F56043268E600 /* libPods-Acronym.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D21A63B14DF7D8E3B82F180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0799CF4D23CB24FF6E28396 /* libPods-Acronym.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BB36005B2DB62467B57D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D96D8FE972FFA5ADEE5797 /* Pods-Acronym.debug.xcconfig */,
+				343F11DB77E07458A74A03AE /* Pods-Acronym.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F18FC6F51C88459800A4A352 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 				F18FC71D1C88459800A4A352 /* AcronymTests */,
 				F18FC7281C88459800A4A352 /* AcronymUITests */,
 				F18FC6FF1C88459800A4A352 /* Products */,
+				95BB36005B2DB62467B57D38 /* Pods */,
+				6D21A63B14DF7D8E3B82F180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +135,13 @@
 			children = (
 				F18FC7041C88459800A4A352 /* AppDelegate.h */,
 				F18FC7051C88459800A4A352 /* AppDelegate.m */,
-				F18FC7071C88459800A4A352 /* ViewController.h */,
-				F18FC7081C88459800A4A352 /* ViewController.m */,
+				F18FC7371C88582E00A4A352 /* MainView.h */,
+				F18FC7381C88582E00A4A352 /* MainView.m */,
 				F18FC70A1C88459800A4A352 /* Main.storyboard */,
+				F18FC73D1C886EA400A4A352 /* customTableViewCell.h */,
+				F18FC73E1C886EA400A4A352 /* customTableViewCell.m */,
+				F18FC73A1C8862B900A4A352 /* ConParAPI.h */,
+				F18FC73B1C8862B900A4A352 /* ConParAPI.m */,
 				F18FC7101C88459800A4A352 /* Assets.xcassets */,
 				F18FC7121C88459800A4A352 /* LaunchScreen.storyboard */,
 				F18FC7151C88459800A4A352 /* Info.plist */,
@@ -150,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18FC72E1C88459800A4A352 /* Build configuration list for PBXNativeTarget "Acronym" */;
 			buildPhases = (
+				B868FADEAE421931555A4D15 /* Check Pods Manifest.lock */,
 				F18FC6FA1C88459800A4A352 /* Sources */,
 				F18FC6FB1C88459800A4A352 /* Frameworks */,
 				F18FC6FC1C88459800A4A352 /* Resources */,
+				38686A8591568E812FC25EC5 /* Embed Pods Frameworks */,
+				65C68EDC52622067C49A6B1A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +247,6 @@
 				TargetAttributes = {
 					F18FC6FD1C88459800A4A352 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = J3362B2W53;
 					};
 					F18FC7191C88459800A4A352 = {
 						CreatedOnToolsVersion = 7.2;
@@ -271,14 +307,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38686A8591568E812FC25EC5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Acronym/Pods-Acronym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C68EDC52622067C49A6B1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Acronym/Pods-Acronym-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B868FADEAE421931555A4D15 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F18FC6FA1C88459800A4A352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18FC7091C88459800A4A352 /* ViewController.m in Sources */,
+				F18FC7391C88582E00A4A352 /* MainView.m in Sources */,
 				F18FC70F1C88459800A4A352 /* Acronym.xcdatamodeld in Sources */,
 				F18FC7061C88459800A4A352 /* AppDelegate.m in Sources */,
+				F18FC73C1C8862B900A4A352 /* ConParAPI.m in Sources */,
+				F18FC73F1C886EA400A4A352 /* customTableViewCell.m in Sources */,
 				F18FC7031C88459800A4A352 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,9 +504,12 @@
 		};
 		F18FC72F1C88459800A4A352 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D96D8FE972FFA5ADEE5797 /* Pods-Acronym.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Acronym/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.Acronym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,9 +518,12 @@
 		};
 		F18FC7301C88459800A4A352 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343F11DB77E07458A74A03AE /* Pods-Acronym.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Acronym/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.Acronym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +597,7 @@
 				F18FC7301C88459800A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F18FC7311C88459800A4A352 /* Build configuration list for PBXNativeTarget "AcronymTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +606,7 @@
 				F18FC7331C88459800A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F18FC7341C88459800A4A352 /* Build configuration list for PBXNativeTarget "AcronymUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +615,7 @@
 				F18FC7361C88459800A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
